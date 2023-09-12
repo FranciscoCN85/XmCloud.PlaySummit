@@ -1,21 +1,18 @@
 ﻿---
-ID: "dffee92b-0441-45a4-9207-67810b72bd46"
+ID: "11d6d1f7-e1ab-46d8-84b7-a52be6ddc0ba"
 Parent: "895e25c4-12b2-4b2c-8233-82f3b79eef53"
 Template: "bc71d442-3e4f-46ba-887c-746e54f9bb83"
-Path: /sitecore/system/Settings/Services/Rendering Hosts/Default
+Path: /sitecore/system/Settings/Services/Rendering Hosts/LOCAL
 SharedFields:
-- ID: "3121c257-53cf-464a-b736-98b418876057"
-  Hint: AppName
-  Value: Default
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
-  Value: 1
+  Value: 
 - ID: "e32c1801-79b3-4fc1-a9c4-3c6e6c2968ae"
   Hint: ServerSideRenderingEngineApplicationUrl
-  Value: "https://xmc-jx7n0o1zc93795qhnb7og.sitecorecloud.io/"
+  Value: "http://rendering:3000"
 - ID: "fc76919b-0d7c-4732-865d-2af795fb38a4"
   Hint: ServerSideRenderingEngineEndpointUrl
-  Value: "https://xmc-jx7n0o1zc93795qhnb7og.sitecorecloud.io:443/api/editing/render"
+  Value: "http://rendering:3000/api/editing/render"
 Languages:
 - Language: "de-DE"
   Versions:
@@ -25,6 +22,13 @@ Languages:
       Hint: __Revision
       Value: "7acdecf2-3f1b-4220-b490-1f9cac301d2b"
 - Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e9e5b17a-3195-4d73-b4be-8d9c1d9daf41"
+- Language: "fr-CA"
   Versions:
   - Version: 1
     Fields:
